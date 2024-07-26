@@ -67,7 +67,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Rasbotprime') # owner username w
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
-CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://ashishy638860:1Ofqc8jsq4lBizIZ@cluster0.ytjcu3x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
+CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://viseded619:IG1n1oQivWoF0pTm@cluster0.kojb6qd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'Ras_bot_1718') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
@@ -143,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "above-traci-none1718-61e24ce9.koyeb.app")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
